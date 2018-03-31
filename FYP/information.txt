@@ -1,0 +1,27 @@
+Natural language processing is a form of artificial intelligence that helps computers read and respond by simulating the 
+human ability to understand everyday language. Many organizations use NLP techniques to optimize customer support, 
+improve the efficiency of text analytics by easily finding the information they need, and enhance social media monitoring.
+ For example, banks might implement NLP algorithms to optimize customer support; a large consumer products brand might 
+combine natural language processing and semantic analysis to improve their knowledge management strategies and social 
+media monitoring.
+
+
+We describe the design and use of the Stanford CoreNLP toolkit, an (able to be made longer or more complex) pipeline that
+ provides core natural language analysis. This toolkit is quite widelyused,both in 
+the research NLP community and also among commercial and government users of open sourceNLP technology. We suggest that 
+this follows from a simple, friendly design, plain/honest/easy(connecting points/ways of interacting with something), 
+including strong and healthy and goodquality analysis parts/pieces, and not needing/ordering use of a large amount of 
+connectedbaggage.
+ 
+
+Annota)on* Object*
+Annotated* text*
+(tokenize)*
+(ssplit)*
+(pos)*
+(lemma)*
+(ner)*
+(parse)*
+(dcoref)*
+(gender, sentiment)!
+Figure 1: Overall system architecture: Raw text is put into an Annotation object and then a sequenceofAnnotatorsaddinformationinananalysis pipeline. The resulting Annotation, containing all the analysis information added by the Annotators, can be output in XML or plain te
